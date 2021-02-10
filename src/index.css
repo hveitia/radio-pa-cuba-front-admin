@@ -1,13 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color:#fff;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font: normal 14px Roboto,arial,sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    padding: 25px;
+    position: fixed;
 }
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+.container{
+    position: relative !important;
+}
+
+.program-img{
+    width: 30px;
+}
+
+.custom-padding{
+    padding: 5px !important;
+}
+
+.custom-padding i{
+    font-size:large ;
+    margin-right: 10px;
+}
+
+.icon-red{
+    color: red !important;
+}
+
+.icon-blue{
+    color: blue !important;
+}
+
+.icon-green{
+    color: green !important;
+    font-size: large;
+}
+
+.custom-nav{
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.font-bold{
+    font-weight: bold !important;
+}
+
+.loading-margin {
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+
+
